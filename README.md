@@ -1,2 +1,49 @@
-# GTU-Study-Mates
-A modern and student-friendly educational website providing GTU Computer Engineering study materials, syllabus, notes, question papers, and video playlists for all 8 semesters in one place.
+# GTU Study Mates 💻📚 
+
+**GTU Study Mates** is an educational website designed to help **GTU Computer, CS, CSE, and IT students** find semester-wise study materials easily, including syllabus, notes, solved papers, and curated video playlists based on the GTU curriculum.
+
+👉 **Live Website:** [https://AyanMemon296.github.io/GTU-Study-Mates/](https://AyanMemon296.github.io/GTU-Study-Mates/)
+
+---
+
+## 📚 Features
+
+- 📄 **Syllabus PDFs** for each subject and semester
+- 📝 **Handwritten Notes** and **Important Exam Notes**
+- 📺 **YouTube Playlists** based on GTU syllabus
+- 📝 **Solved GTU Papers**
+- 🎯 **IMP Questions & Paper Solutions**
+- 📌 Covers **Semester 1 to Semester 8** (Computer Engineering)
+
+---
+
+## 🚀 How to Use
+
+1. Visit the [Live Website](https://AyanMemon296.github.io/GTU-Study-Mates/)
+2. Click on your **semester** to explore subjects.
+3. Access **study materials** like syllabus, notes, papers, and playlists.
+
+---
+
+## 🚫 Usage Restrictions
+
+- The content, design, and code of **GTU Study Mates** are the **original work of Ayan Memon**.
+- You are **strictly prohibited** from copying, reproducing, modifying, or redistributing this project, website, or any part of it without **explicit written permission** from the author.
+- Any unauthorized use, including **removing credits or reusing the project as your own**, may lead to **legal consequences** including but not limited to:
+  - **DMCA Takedown Notices**
+  - **Copyright infringement claims**
+  - **Permanent removal from hosting platforms**
+- This project is shared for **educational purposes only**, not for commercial misuse or unethical replication.
+
+---
+
+## 👤 About the Creator
+
+- **Created by:** Ayan Memon
+- **GitHub:** [AyanMemon296](https://github.com/AyanMemon296)
+- **YouTube:** [@ayanmemon2926](https://www.youtube.com/@ayanmemon2926)
+- **LinkedIn:** [Ayan Memon](https://www.linkedin.com/in/ayanmemon296/)
+
+---
+
+© 2025 GTU Study Mates | All Rights Reserved
