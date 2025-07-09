@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Semester 4 - GTU Study Mates</title>
+  <link rel="icon" type="image/png" href="../assets/favicon.png">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Access complete study materials for GTU Semester 4 including syllabus, GTU papers, paper solutions, notes, playlists, and more for Computer Engineering subjects.">
+  <meta name="keywords"
+    content="GTU Semester 4, GTU Study Mates, Computer Engineering, Semester 4 Syllabus, GTU Papers, Paper Solutions, IMP Questions, Notes, Playlists, Study Materials, Gujarat Technological University">
+  <meta name="author" content="Ayan Memon">
+
+  <meta property="og:title" content="Semester 4 Subjects | GTU Study Mates">
+  <meta property="og:description"
+    content="Get all GTU Semester 4 study materials including syllabus, GTU papers, solutions, notes, and playlists for Computer Engineering subjects.">
+  <meta property="og:type" content="website">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">GTU Study Mates</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#semesters">Study Materials</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <section class="policy-page container">
+    <h2>Semester 4 - Computer Engineering</h2>
+    <p>
+      Semester 4 builds upon core Computer Engineering knowledge. This semester includes subjects like Operating
+      Systems, OOP, COA, and more. Below are the subjects and learning materials for Sem 4.
+    </p>
+  </section>
+
+  <!-- Subjects Grid -->
+  <section class="subject-grid container">
+    <div class="subject-card">
+      <a href="OS.html">
+        <h4>OS</h4>
+        <p>Operating System</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="OOP.html">
+        <h4>OOP</h4>
+        <p>Object Oriented Programming-I</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="COA.html">
+        <h4>COA</h4>
+        <p>Computer Organization & Architecture</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="DM.html">
+        <h4>DM</h4>
+        <p>Discrete Mathematics</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="PEM.html">
+        <h4>PEM</h4>
+        <p>Principles of Economics and Management</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="DE1B.html">
+        <h4>DE 1B</h4>
+        <p>Design Engineering 1 B</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="Sem4Playlists.html">
+        <h4>Sem 4 Playlists</h4>
+        <p>All YouTube Playlists for Sem 4</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <p>© 2025 GTU Study Mates | All Rights Reserved</p>
+      <p>Made with ❤️ by Ayan Memon</p>
+    </div>
+    <div class="footer-links">
+      <a href="../footer/dmca.html">DMCA</a>
+      <a href="../footer/disclaimer.html">Disclaimer</a>
+      <a href="../footer/privacy-policy.html">Privacy Policy</a>
+      <a href="../footer/terms-and-conditions.html">Terms & Conditions</a>
+      <a href="../footer/about-us.html">About Us</a>
+      <a href="../footer/contact-us.html">Contact Us</a>
+    </div>
+  </footer>
+
+  <!-- Hamburger Script -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    const navItems = document.querySelectorAll('.nav-links a');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    navItems.forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+      });
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Semester 3 - GTU Study Mates</title>
+  <link rel="icon" type="image/png" href="../assets/favicon.png">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Access complete study materials for GTU Semester 3 including syllabus, papers, paper solutions, notes, playlists, and more for all Computer Engineering subjects.">
+  <meta name="keywords"
+    content="GTU Semester 3, GTU Study Mates, Computer Engineering, Syllabus, GTU Papers, Paper Solutions, IMP Questions, Notes, Playlists, Study Materials, Gujarat Technological University">
+  <meta name="author" content="Ayan Memon">
+
+  <meta property="og:title" content="Semester 3 Subjects | GTU Study Mates">
+  <meta property="og:description"
+    content="Get all GTU Semester 3 study materials including syllabus, papers, solutions, notes, and playlists for Computer Engineering subjects.">
+  <meta property="og:type" content="website">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">GTU Study Mates</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#semesters">Study Materials</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <section class="policy-page container">
+    <h2>Semester 3 - Computer Engineering</h2>
+    <p>
+      Semester 3 is the beginning of core Computer Engineering subjects under GTU. It includes important subjects like
+      Data Structures and DBMS. Below are all the subjects covered in Sem 3. You can explore study materials, notes,
+      question papers, and playlists for each subject.
+    </p>
+  </section>
+
+  <!-- Subjects Grid -->
+  <section class="subject-grid container">
+    <div class="subject-card">
+      <a href="DS.html">
+        <h4>DS</h4>
+        <p>Data Structures</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="DBMS.html">
+        <h4>DBMS</h4>
+        <p>Database Management Systems</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="DF.html">
+        <h4>DF</h4>
+        <p>Digital Fundamentals</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="PS.html">
+        <h4>PS</h4>
+        <p>Probability and Statistics</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="ETC.html">
+        <h4>ETC</h4>
+        <p>Effective Technical Communication</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="IC.html">
+        <h4>IC</h4>
+        <p>Indian Constitution</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="DE1A.html">
+        <h4>DE 1A</h4>
+        <p>Design Engineering 1 A</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="Sem3Playlists.html">
+        <h4>Sem 3 Playlists</h4>
+        <p>All YouTube Playlists for Sem 3</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <p>© 2025 GTU Study Mates | All Rights Reserved</p>
+      <p>Made with ❤️ by Ayan Memon</p>
+    </div>
+    <div class="footer-links">
+      <a href="../footer/dmca.html">DMCA</a>
+      <a href="../footer/disclaimer.html">Disclaimer</a>
+      <a href="../footer/privacy-policy.html">Privacy Policy</a>
+      <a href="../footer/terms-and-conditions.html">Terms & Conditions</a>
+      <a href="../footer/about-us.html">About Us</a>
+      <a href="../footer/contact-us.html">Contact Us</a>
+    </div>
+  </footer>
+
+  <!-- Hamburger Script -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    const navItems = document.querySelectorAll('.nav-links a');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    navItems.forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+      });
+    });
+  </script>
+
+</body>
+
+</html>

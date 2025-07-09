@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | GTU Study Mates</title>
+
+  <meta name="description"
+    content="Contact GTU Study Mates for any queries, feedback, or suggestions. We are here to help GTU Computer Engineering students.">
+  <meta name="keywords" content="GTU Contact, GTU Study Mates Contact, Computer Engineering, Ayan Memon">
+  <meta name="author" content="Ayan Memon">
+  <meta property="og:title" content="Contact Us | GTU Study Mates">
+  <meta property="og:description" content="Get in touch with GTU Study Mates for support, questions, or collaboration.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="../assets/favicon.png">
+
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">GTU Study Mates</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#semesters">Study Materials</a></li>
+        <li><a href="contact-us.html" class="active">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-subject">
+    <div class="hero-text">
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you</p>
+    </div>
+  </header>
+
+  <!-- Contact Form Section -->
+  <section class="policy-page container">
+    <h2>Get in Touch</h2>
+    <p>If you have any questions, feedback, or want to contribute to this platform, feel free to reach out. I’d love to
+      hear from you!</p>
+
+    <form action="https://formsubmit.co/gtustudymates@gmail.com" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="subject" placeholder="Subject" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+
+    <h2>Connect with Us</h2>
+    <div class="social-icons">
+      <a href="https://www.youtube.com/@ayanmemon2926" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://github.com/AyanMemon296" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/ayanmemon296/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://t.me/ayanmemonyt" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+      <a href="mailto:gtustudymates@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <p>© 2025 GTU Study Mates | All Rights Reserved</p>
+      <p>Made with ❤️ by Ayan Memon</p>
+    </div>
+    <div class="footer-links">
+      <a href="../footer/dmca.html">DMCA</a>
+      <a href="../footer/disclaimer.html">Disclaimer</a>
+      <a href="../footer/privacy-policy.html">Privacy Policy</a>
+      <a href="../footer/terms-and-conditions.html">Terms & Conditions</a>
+      <a href="../footer/about-us.html">About Us</a>
+      <a href="contact-us.html">Contact Us</a>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    const navItems = document.querySelectorAll('.nav-links a');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    navItems.forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+      });
+    });
+  </script>
+
+</body>
+
+</html>

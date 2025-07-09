@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Semester 5 - GTU Study Mates</title>
+  <link rel="icon" type="image/png" href="../assets/favicon.png">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Access complete study materials for GTU Semester 5 including syllabus, GTU papers, paper solutions, notes, playlists, and more for Computer Engineering subjects.">
+  <meta name="keywords"
+    content="GTU Semester 5, GTU Study Mates, Computer Engineering, Semester 5 Syllabus, GTU Papers, Paper Solutions, IMP Questions, Notes, Playlists, Study Materials, Gujarat Technological University">
+  <meta name="author" content="Ayan Memon">
+
+  <meta property="og:title" content="Semester 5 Subjects | GTU Study Mates">
+  <meta property="og:description"
+    content="Get all GTU Semester 5 study materials including syllabus, GTU papers, solutions, notes, and playlists for Computer Engineering subjects.">
+  <meta property="og:type" content="website">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">GTU Study Mates</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#semesters">Study Materials</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <section class="policy-page container">
+    <h2>Semester 5 - Computer Engineering</h2>
+    <p>
+      Semester 5 focuses on advanced subjects like Computer Networks, Algorithms, and Python for Data Science. It also
+      includes soft-skill development through IPDC and Professional Ethics.
+    </p>
+    <p>
+      Explore all study materials, notes, papers, and playlists for each subject below.
+    </p>
+    <p><strong>Note:</strong> From this semester onwards, <u>External VIVA & Practical Exams</u> will be conducted
+      officially. These are also covered in the YouTube playlists — so don't forget to check them!</p>
+    <p>
+      <strong>Sem-5 VIVA Playlist:</strong> <a
+        href="https://youtube.com/playlist?list=PLNiD0MJqUzyFyIr5NJmPKoPMZZvMqVJ6S" target="_blank">Watch on YouTube</a>
+    </p>
+  </section>
+
+  <!-- Subjects Grid -->
+  <section class="subject-grid container">
+    <div class="subject-card">
+      <a href="CN.html">
+        <h4>CN</h4>
+        <p>Computer Networks</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="ADA.html">
+        <h4>ADA</h4>
+        <p>Analysis & Design of Algorithms</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="SE.html">
+        <h4>SE</h4>
+        <p>Software Engineering</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="PDS.html">
+        <h4>PDS</h4>
+        <p>Python for Data Science</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="PE.html">
+        <h4>PE</h4>
+        <p>Professional Ethics</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="IPDC1.html">
+        <h4>IPDC-1</h4>
+        <p>Integrated Personality Development Course - 1</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="DE2A.html">
+        <h4>DE 2A</h4>
+        <p>Design Engineering 2 A</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="CS.html">
+        <h4>CS</h4>
+        <p>Cyber Security</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="Sem5Playlists.html">
+        <h4>Sem 5 Playlists</h4>
+        <p>All YouTube Playlists for Sem 5</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <p>© 2025 GTU Study Mates | All Rights Reserved</p>
+      <p>Made with ❤️ by Ayan Memon</p>
+    </div>
+    <div class="footer-links">
+      <a href="../footer/dmca.html">DMCA</a>
+      <a href="../footer/disclaimer.html">Disclaimer</a>
+      <a href="../footer/privacy-policy.html">Privacy Policy</a>
+      <a href="../footer/terms-and-conditions.html">Terms & Conditions</a>
+      <a href="../footer/about-us.html">About Us</a>
+      <a href="../footer/contact-us.html">Contact Us</a>
+    </div>
+  </footer>
+
+  <!-- Hamburger Script -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    const navItems = document.querySelectorAll('.nav-links a');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    navItems.forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+      });
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions | GTU Study Mates</title>
+
+    <meta name="description" content="Read the Terms & Conditions for using GTU Study Mates. Learn about acceptable use, content ownership, and user responsibilities.">
+    <meta name="keywords" content="GTU Study Mates, Terms and Conditions, Disclaimer, Privacy Policy, DMCA, Ayan Memon">
+    <meta name="author" content="Ayan Memon">
+    <meta property="og:title" content="Terms & Conditions | GTU Study Mates">
+    <meta property="og:description" content="Understand the rules and conditions for using GTU Study Mates and its educational content.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="../assets/og-image.png">
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">GTU Study Mates</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#semesters">Study Materials</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-subject">
+        <div class="hero-text">
+            <h1>Terms & Conditions</h1>
+            <p>Please read these terms carefully before using GTU Study Mates</p>
+        </div>
+    </header>
+
+    <!-- Terms Content -->
+    <section class="policy-page container">
+
+        <p>Last updated: July 2025</p>
+
+        <h3>1. Ownership & Copyright</h3>
+        <p>All content on this website, including notes, papers, solutions, graphics, and designs, is the intellectual property of <strong>GTU Study Mates</strong> unless otherwise stated. Unauthorized copying, reproduction, or commercial use is strictly prohibited without written permission.</p>
+
+        <h3>2. Educational Use Only</h3>
+        <p>This website is intended for educational and personal use only by students of Gujarat Technological University (GTU) and similar academic institutions. The materials provided are for reference purposes and should not replace official academic guidance.</p>
+
+        <h3>3. No Guarantee of Accuracy</h3>
+        <p>While every effort is made to ensure accuracy, GTU Study Mates does not guarantee that the information is free from errors or omissions. We are not responsible for any academic or financial consequences arising from the use of this content.</p>
+
+        <h3>4. External Links</h3>
+        <p>This website may contain links to external websites, videos, or resources. We do not endorse and are not responsible for the content of any third-party sites.</p>
+
+        <h3>5. Modifications</h3>
+        <p>We reserve the right to modify or update these Terms & Conditions at any time without prior notice. It is your responsibility to review this page periodically.</p>
+
+        <h3>6. Contact</h3>
+        <p>If you have any questions or concerns regarding these Terms & Conditions, please contact us via our <a href="../footer/contact-us.html">Contact Us</a> page.</p>
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <p>© 2025 GTU Study Mates | All Rights Reserved</p>
+            <p>Made with ❤️ by Ayan Memon</p>
+        </div>
+        <div class="footer-links">
+            <a href="../footer/dmca.html">DMCA</a>
+            <a href="../footer/disclaimer.html">Disclaimer</a>
+            <a href="../footer/privacy-policy.html">Privacy Policy</a>
+            <a href="../footer/terms-and-conditions.html">Terms & Conditions</a>
+            <a href="../footer/about-us.html">About Us</a>
+            <a href="../footer/contact-us.html">Contact Us</a>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        const navItems = document.querySelectorAll('.nav-links a');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        navItems.forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+    </script>
+
+</body>
+
+</html>

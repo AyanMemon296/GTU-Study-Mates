@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | GTU Study Mates</title>
+
+    <meta name="description" content="Read the Privacy Policy of GTU Study Mates to understand how we collect, use, and protect your information.">
+    <meta name="keywords" content="GTU Study Mates, Privacy Policy, GTU, Study Materials, Computer Engineering">
+    <meta name="author" content="Ayan Memon">
+    <meta property="og:title" content="Privacy Policy | GTU Study Mates">
+    <meta property="og:description" content="Learn how GTU Study Mates handles your data and protects your privacy.">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" type="image/png" href="../assets/favicon.png">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">GTU Study Mates</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#semesters">Study Materials</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-subject">
+        <div class="hero-text">
+            <h1>Privacy Policy</h1>
+            <p>Protecting Your Privacy is Our Priority</p>
+        </div>
+    </header>
+
+    <!-- Privacy Policy Content -->
+    <section class="policy-page container">
+
+        <h3>1. Introduction</h3>
+        <p>
+            Welcome to GTU Study Mates. We respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your information when you use our website.
+        </p>
+
+        <h3>2. Information We Collect</h3>
+        <p>
+            We may collect minimal information such as your name, email address, or feedback when you contact us through the Contact Form. We do not collect any sensitive or unnecessary personal information.
+        </p>
+
+        <h3>3. How We Use Your Information</h3>
+        <p>
+            The information we collect is used only to:
+        </p>
+        <ul>
+            <li>Respond to your queries or feedback</li>
+            <li>Improve our website and services</li>
+            <li>Send you important updates if requested</li>
+        </ul>
+
+        <h3>4. Information Sharing</h3>
+        <p>
+            We do not sell, trade, or share your personal information with third parties. Your data is strictly used for communication between you and GTU Study Mates.
+        </p>
+
+        <h3>5. External Links</h3>
+        <p>
+            Our website contains links to external sites like YouTube, Google Drive, etc. We are not responsible for the privacy practices of these third-party sites. We encourage you to read their privacy policies.
+        </p>
+
+        <h3>6. Data Security</h3>
+        <p>
+            We take appropriate steps to protect your personal information, but please note that no method of transmission over the Internet is 100% secure.
+        </p>
+
+        <h3>7. Changes to This Policy</h3>
+        <p>
+            We may update this Privacy Policy from time to time. We recommend visiting this page periodically to stay informed about any changes.
+        </p>
+
+        <h3>8. Contact</h3>
+        <p>
+            If you have any concerns about privacy or data usage, please feel free to <a href="../footer/contact-us.html">Contact Us</a> through our dedicated page.
+        </p>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <p>© 2025 GTU Study Mates | All Rights Reserved</p>
+            <p>Made with ❤️ by Ayan Memon</p>
+        </div>
+        <div class="footer-links">
+            <a href="dmca.html">DMCA</a>
+            <a href="disclaimer.html">Disclaimer</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms-and-conditions.html">Terms & Conditions</a>
+            <a href="about-us.html">About Us</a>
+            <a href="contact-us.html">Contact Us</a>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        const navItems = document.querySelectorAll('.nav-links a');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        navItems.forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+    </script>
+
+</body>
+
+</html>

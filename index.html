@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GTU Study Mates</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Ultimate Study Platform for GTU Computer, CS, CSE, and IT Students">
+  <meta name="author" content="Ayan Memon">
+  <meta property="og:title" content="GTU Study Mates">
+  <meta property="og:description"
+    content="Study materials, papers, notes, lab files & playlists. All 8 semesters in one place.">
+  <meta property="og:type" content="website">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome (for icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">GTU Study Mates</div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#semesters">Study Materials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Hamburger Icon -->
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="hero-container">
+      <div class="hero-text">
+        <h1>Ultimate Study Platform for GTU Computer, CS, CSE, and IT Students</h1>
+        <p>Study materials, notes, papers, lab files & playlists for every subject — semester-wise, well-organized, and
+          100% free.</p>
+        <a href="#semesters" class="cta-btn">📚 Explore Semesters</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about-section container">
+    <h2>About GTU Study Mates</h2>
+    <p>
+      <strong>GTU Study Mates</strong> is your one-stop platform for all study materials related to GTU Computer
+      Engineering, CS, CSE, and IT subjects. Our goal is to simplify your learning by providing complete syllabus-based
+      resources for every subject of every semester.
+    </p>
+    <p>
+      Whether you need quick paper solutions, detailed notes, or subject-wise playlists, everything is organized in one
+      place to save your time and help you prepare better.
+    </p>
+    <p>
+      On this website, you will find:
+    </p>
+    <div class="features-grid">
+      <div class="feature-card">🎥 Playlist</div>
+      <div class="feature-card">📄 GTU Papers</div>
+      <div class="feature-card">🖊️ Paper Solutions</div>
+      <div class="feature-card">✅ IMP</div>
+      <div class="feature-card">❓ IMP QNA</div>
+      <div class="feature-card">⭐ MIMP QNA</div>
+      <div class="feature-card">📚 GTU Books</div>
+      <div class="feature-card">🔬 Lab Manual</div>
+      <div class="feature-card">✍️ Handwritten Notes</div>
+      <div class="feature-card">📦 Enough Study Material</div>
+    </div>
+
+  </section>
+
+  <!-- SEMESTERS GRID -->
+  <section id="semesters" class="sem-grid container">
+    <h2>Select a Semester</h2>
+    <div class="grid">
+      <a href="Sem1-2/index.html" class="sem-card">First Year <br>(Sem 1 & 2)</a>
+      <a href="Sem3/index.html" class="sem-card">Semester 3</a>
+      <a href="Sem4/index.html" class="sem-card">Semester 4</a>
+      <a href="Sem5/index.html" class="sem-card">Semester 5</a>
+      <a href="Sem6/index.html" class="sem-card">Semester 6</a>
+      <a href="Sem7/index.html" class="sem-card">Semester 7</a>
+      <a href="Sem8/index.html" class="sem-card">Semester 8</a>
+      <a href="100PointsActivity/index.html" class="sem-card">100 Points Activity</a>
+    </div>
+  </section>
+
+  <!-- SOCIAL / CONTACT -->
+  <section id="contact" class="connect-section container">
+    <h2>Contact Us</h2>
+    <p>If you have any queries, feedback, or suggestions, feel free to reach out using the form below.</p>
+
+    <form action="https://formsubmit.co/gtustudymates@gmail.com" method="POST" class="contact-form">
+
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="subject" placeholder="Subject" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+
+      <!-- Hidden: Redirect to Thank You Page "https://yourwebsite.com/thank-you.html"-->
+      <input type="hidden" name="_next" value="https://AyanMemon296.github.io/GTU-Study-Mates/thank-you.html">
+
+      <!-- Hidden: Auto-response to User -->
+      <input type="hidden" name="_autoresponse"
+        value="Thank you for contacting GTU Study Mates. We have received your message and will reply soon.">
+
+      <!-- Hidden: Honeypot to block bots -->
+      <input type="text" name="_honey" style="display:none">
+
+      <button type="submit">Send Message</button>
+    </form>
+
+
+    <h2>Connect with Us</h2>
+    <div class="social-icons">
+      <a href="https://www.youtube.com/@ayanmemon2926" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://github.com/AyanMemon296" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/ayanmemon296/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://t.me/ayanmemonyt" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+      <a href="mailto:gtustudymates@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <p>© 2025 GTU Study Mates | All Rights Reserved</p>
+      <p>Made with ❤️ by Ayan Memon</p>
+    </div>
+    <div class="footer-links">
+      <a href="./footer/dmca.html">DMCA</a>
+      <a href="./footer/disclaimer.html">Disclaimer</a>
+      <a href="./footer/privacy-policy.html">Privacy Policy</a>
+      <a href="./footer/terms-and-conditions.html">Terms & Conditions</a>
+      <a href="./footer/about-us.html">About Us</a>
+      <a href="./footer/contact-us.html">Contact Us</a>
+    </div>
+  </footer>
+
+  <!-- Hamburger JS -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    const navItems = document.querySelectorAll('.nav-links a');
+
+    // Toggle hamburger open/close
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    // Close hamburger menu when any nav link is clicked
+    navItems.forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>

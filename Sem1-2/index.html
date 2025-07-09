@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>First Year (Sem 1 & 2) - GTU Study Mates</title>
+  <link rel="icon" type="image/png" href="../assets/favicon.png">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Access complete study materials for GTU First Year (Sem 1 & 2) including syllabus, papers, solutions, notes, and playlists for all Computer Engineering subjects.">
+  <meta name="keywords"
+    content="GTU, GTU First Year, Semester 1, Semester 2, GTU Study Mates, Computer Engineering, Syllabus, Papers, Solutions, Notes, Playlists, IMP Questions, GTU Subjects">
+  <meta name="author" content="Ayan Memon">
+
+  <meta property="og:title" content="First Year (Sem 1 & 2) Subjects | GTU Study Mates">
+  <meta property="og:description"
+    content="Get all GTU First Year (Sem 1 & 2) study materials including syllabus, papers, notes, solutions, and subject-wise playlists.">
+  <meta property="og:type" content="website">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">GTU Study Mates</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#semesters">Study Materials</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <section class="policy-page container">
+    <h2>First Year - Semester 1 & 2</h2>
+    <p>
+      In GTU, the First Year consists of Semester 1 and Semester 2. These semesters contain foundational subjects
+      selected by the college, which may vary across different institutions.
+    </p>
+    <p>
+      Below is the complete list of common First Year subjects offered across GTU-affiliated colleges.
+    </p>
+  </section>
+
+  <!-- Subjects Grid -->
+  <section class="subject-grid container">
+    <div class="subject-card">
+      <a href="BE.html">
+        <h4>BE</h4>
+        <p>Basic Electronics</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="BEE.html">
+        <h4>BEE</h4>
+        <p>Basic Electrical Engineering</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="BME.html">
+        <h4>BME</h4>
+        <p>Basic Mechanical Engineering</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="EGD.html">
+        <h4>EGD</h4>
+        <p>Engineering Graphics & Design</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="ES.html">
+        <h4>ES</h4>
+        <p>Environmental Science</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="English.html">
+        <h4>English</h4>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="Maths1.html">
+        <h4>Maths-1</h4>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="Maths2.html">
+        <h4>Maths-2</h4>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="Physics2.html">
+        <h4>Physics-2</h4>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="PPS.html">
+        <h4>PPS</h4>
+        <p>Programming for Problem Solving</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="Workshop.html">
+        <h4>Workshop</h4>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <p>© 2025 GTU Study Mates | All Rights Reserved</p>
+      <p>Made with ❤️ by Ayan Memon</p>
+    </div>
+    <div class="footer-links">
+      <a href="../footer/dmca.html">DMCA</a>
+      <a href="../footer/disclaimer.html">Disclaimer</a>
+      <a href="../footer/privacy-policy.html">Privacy Policy</a>
+      <a href="../footer/terms-and-conditions.html">Terms & Conditions</a>
+      <a href="../footer/about-us.html">About Us</a>
+      <a href="../footer/contact-us.html">Contact Us</a>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    const navItems = document.querySelectorAll('.nav-links a');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    navItems.forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+      });
+    });
+  </script>
+
+</body>
+
+</html>

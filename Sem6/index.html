@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Semester 6 - GTU Study Mates</title>
+  <link rel="icon" type="image/png" href="../assets/favicon.png">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Access complete study materials for GTU Semester 6 including syllabus, GTU papers, paper solutions, notes, playlists, and more for Computer Engineering subjects.">
+  <meta name="keywords"
+    content="GTU Semester 6, GTU Study Mates, Computer Engineering, Semester 6 Syllabus, GTU Papers, Paper Solutions, IMP Questions, Notes, Playlists, Study Materials, Gujarat Technological University">
+  <meta name="author" content="Ayan Memon">
+
+  <meta property="og:title" content="Semester 6 Subjects | GTU Study Mates">
+  <meta property="og:description"
+    content="Get all GTU Semester 6 study materials including syllabus, GTU papers, solutions, notes, and playlists for Computer Engineering subjects.">
+  <meta property="og:type" content="website">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">GTU Study Mates</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#semesters">Study Materials</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <section class="policy-page container">
+    <h2>Semester 6 - Computer Engineering</h2>
+    <p>
+      Semester 6 continues the deep technical journey with subjects like Theory of Computation, Advance Java, and
+      Microprocessor. This semester includes both core subjects and practical skills.
+    </p>
+    <p>
+      Find all your Semester 6 study materials, notes, lab manuals, and curated playlists below.
+    </p>
+    <p><strong>Note:</strong> This is the <u>last semester to complete your 100 Points Activity</u>. Refer to the
+      dedicated playlist section for guidance and resources.</p>
+    <p>
+      <strong>100 Points Activity Playlist:</strong> <a
+        href="https://youtube.com/playlist?list=PLNiD0MJqUzyHnKvt2XCVrNz-Y9HxMLHJY" target="_blank">Watch on YouTube</a>
+    </p>
+    <p>
+      <strong>Sem-6 VIVA Playlist:</strong> <a
+        href="https://youtube.com/playlist?list=PLNiD0MJqUzyEaOzMpJYN9qN8NDCkRL7mP" target="_blank">Watch on YouTube</a>
+    </p>
+  </section>
+
+  <!-- Subjects Grid -->
+  <section class="subject-grid container">
+    <div class="subject-card">
+      <a href="TOC.html">
+        <h4>TOC</h4>
+        <p>Theory of Computation</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="MPI.html">
+        <h4>MPI</h4>
+        <p>Microprocessor & Interfacing</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="AJP.html">
+        <h4>AJP</h4>
+        <p>Advance Java Programming</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="WP.html">
+        <h4>WP</h4>
+        <p>Web Programming</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="IoT.html">
+        <h4>IoT</h4>
+        <p>IoT & Applications</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="IPDC2.html">
+        <h4>IPDC-2</h4>
+        <p>Integrated Personality Development Course - 2</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="DE2B.html">
+        <h4>DE 2B</h4>
+        <p>Design Engineering 2 B</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="Sem6Playlists.html">
+        <h4>Sem 6 Playlists</h4>
+        <p>All YouTube Playlists for Sem 6</p>
+      </a>
+    </div>
+    <div class="subject-card">
+      <a href="../100PointsActivity/index.html">
+        <h4>100 Points Activity</h4>
+        <p>Complete Your 100 Points with Guidance</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <p>© 2025 GTU Study Mates | All Rights Reserved</p>
+      <p>Made with ❤️ by Ayan Memon</p>
+    </div>
+    <div class="footer-links">
+      <a href="../footer/dmca.html">DMCA</a>
+      <a href="../footer/disclaimer.html">Disclaimer</a>
+      <a href="../footer/privacy-policy.html">Privacy Policy</a>
+      <a href="../footer/terms-and-conditions.html">Terms & Conditions</a>
+      <a href="../footer/about-us.html">About Us</a>
+      <a href="../footer/contact-us.html">Contact Us</a>
+    </div>
+  </footer>
+
+  <!-- Hamburger Script -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    const navItems = document.querySelectorAll('.nav-links a');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    navItems.forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+      });
+    });
+  </script>
+
+</body>
+
+</html>

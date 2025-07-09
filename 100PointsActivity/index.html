@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 Points Activity | GTU Study Mates</title>
+    <link rel="icon" type="image/png" href="../assets/favicon.png">
+
+
+    <meta name="description" content="Get complete guidance, materials, and playlist to easily complete the 100 Points Activity in GTU.">
+    <meta name="keywords" content="GTU 100 Points Activity, Circular, GTU Guidelines, GTU Study Mates, Ayan Memon, Computer Engineering">
+    <meta name="author" content="Ayan Memon">
+    <meta property="og:title" content="100 Points Activity | GTU Study Mates">
+    <meta property="og:description" content="Access playlist and circular for GTU 100 Points Activity. Complete your 100 points easily with proper guidance.">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">GTU Study Mates</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#semesters">Study Materials</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-subject">
+        <div class="hero-text">
+            <h1>100 Points Activity - GTU</h1>
+            <p>Complete Guidance, Playlist & Circular</p>
+        </div>
+    </header>
+
+    <!-- Subject Description -->
+    <section class="policy-page container">
+        <h2>About 100 Points Activity</h2>
+        <p>
+            100 Points Activity is an <strong>essential requirement in GTU</strong> where students need to complete various activities to earn 100 points as part of their curriculum.
+        </p>
+        <p>
+            This activity helps in <strong>holistic development, practical exposure, and skill enhancement</strong> beyond academic learning.
+        </p>
+        <p>
+            No need to worry about this. We have provided a <strong>GTU syllabus-based playlist</strong> to help you easily complete your 100 points along with the official circular.
+        </p>
+        <p>
+            <strong>100 Points Activity Playlist:</strong> <a href="https://youtube.com/playlist?list=PLNiD0MJqUzyHnKvt2XCVrNz-Y9HxMLHJY" target="_blank">Watch on YouTube</a>
+        </p>
+    </section>
+
+    <!-- Study Materials -->
+    <section class="subject-materials container">
+        <h2>100 Points Activity Materials</h2>
+
+        <div class="materials-grid">
+
+            <div class="material-card">
+                <h3>100 Points Activity Playlist</h3>
+                <a href="https://youtube.com/playlist?list=PLNiD0MJqUzyHnKvt2XCVrNz-Y9HxMLHJY" target="_blank">
+                    <i class="fab fa-youtube"></i> Watch Now
+                </a>
+            </div>
+
+            <div class="material-card">
+                <h3>GTU Circular</h3>
+                <a href="https://drive.google.com/drive/folders/1rtzClcoZ-3PGdQBNYG4Z9Uk1a9R_pcTv" target="_blank">
+                    <i class="fas fa-file-alt"></i> View / Download
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <p>© 2025 GTU Study Mates | All Rights Reserved</p>
+            <p>Made with ❤️ by Ayan Memon</p>
+        </div>
+        <div class="footer-links">
+            <a href="../footer/dmca.html">DMCA</a>
+            <a href="../footer/disclaimer.html">Disclaimer</a>
+            <a href="../footer/privacy-policy.html">Privacy Policy</a>
+            <a href="../footer/terms-and-conditions.html">Terms & Conditions</a>
+            <a href="../footer/about-us.html">About Us</a>
+            <a href="../footer/contact-us.html">Contact Us</a>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        const navItems = document.querySelectorAll('.nav-links a');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        navItems.forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+    </script>
+
+</body>
+
+</html>

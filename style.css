@@ -1,0 +1,689 @@
+/* ========== ROOT & RESET ========== */
+:root {
+  --primary: #2563eb;
+  --primary-light: #3b82f6;
+  --bg-light: #f9fafb;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;  /* Or match the height of your navbar */
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+/* ========== NAVBAR ========== */
+.navbar {
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: var(--shadow);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--primary);
+}
+
+/* ========== HAMBURGER MENU ========== */
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 65px;
+    right: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    display: none;
+    width: 200px;
+    padding: 1rem;
+    box-shadow: var(--shadow);
+    z-index: 999;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+
+  .nav-links a {
+    width: 100%;
+    color: var(--text-dark);
+    text-align: left;
+    font-size: 1rem;
+  }
+}
+
+/* ========== HERO SECTION ========== */
+.hero {
+  background-color: #eff6ff;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.hero-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.hero-text h1 {
+  font-size: 2.3rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+}
+
+.cta-btn {
+  padding: 0.75rem 1.5rem;
+  background: var(--primary);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 6px;
+  box-shadow: var(--shadow);
+  transition: background 0.3s ease;
+}
+
+.cta-btn:hover {
+  background: var(--primary-light);
+}
+
+/* ========== ABOUT SECTION ========== */
+.about-section {
+  padding: 4rem 2rem;
+  background: white;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+.about-section p {
+  font-size: 1rem;
+  color: var(--text-light);
+  max-width: 750px;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: #f1f5f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  color: var(--primary);
+  transition: transform 0.3s ease;
+  box-shadow: var(--shadow);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+/* ========== SEMESTERS SECTION ========== */
+.sem-grid {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #fefefe;
+}
+
+.sem-grid h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--primary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+}
+
+.sem-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+  border: 1px solid #e5e7eb;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sem-card:hover {
+  transform: translateY(-5px);
+  background-color: #f0f9ff;
+}
+
+/* ========== Contact SECTION ========== */
+.contact-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.contact-form textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.contact-form button {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+
+/* ========== CONNECT SECTION ========== */
+.connect-section {
+  padding: 4rem 2rem;
+  background-color: #f8fafc;
+  text-align: center;
+}
+
+.connect-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--primary);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.social-icons a {
+  color: var(--primary);
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: var(--primary-light);
+}
+
+/* ========== FOOTER ========== */
+.footer {
+  background: #1e293b;
+  color: #cbd5e1;
+  padding: 2rem 1.5rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.footer-top p {
+  margin: 0.2rem 0;
+}
+
+.footer-links {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+/* ========== FOOTER PAGE LAYOUT ========== */
+.policy-page {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: var(--shadow);
+  border-radius: 10px;
+  text-align: left;
+  line-height: 1.7;
+}
+
+.policy-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+  text-align: center;
+}
+
+.policy-page h3 {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: var(--text-dark);
+}
+
+.policy-page ul {
+  margin-left: 1.5rem;
+  padding-left: 1rem;
+}
+
+.policy-page ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* ========== SUBJECT GRID (First Year Subjects) ========== */
+.subject-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+  padding: 2rem 0;
+}
+
+.subject-card {
+  background: #f0f4ff;
+  border: 1px solid #d0dbf3;
+  padding: 1.2rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.subject-card a {
+  text-decoration: none;
+  color: #111;
+  display: block;
+}
+
+.subject-card h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2563eb;
+  margin-bottom: 0.4rem;
+}
+
+.subject-card p {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.subject-card:hover {
+  background: #e0eaff;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* ========== Global Container ========== */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* ========== Hero Section for Subject Pages ========== */
+.hero-subject {
+  background-color: #f0f4f8;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero-subject h1 {
+  font-size: 2.5rem;
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+
+.hero-subject p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* ========== Subject Materials Section ========== */
+.subject-materials h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #2563eb;
+}
+
+.materials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.material-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.material-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.material-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.material-card a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.material-card a i {
+  font-size: 1.2rem;
+}
+
+.playlist-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #002147; /* Consistent dark blue */
+}
+
+.playlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.playlist-card {
+    background-color: #f9f9f9;
+    color: #444;
+    border-radius: 10px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px; /* Fixed height for equal button position */
+}
+
+.playlist-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.playlist-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.playlist-card h3 {
+    font-size: 1.1rem;
+    color: #002147;  /* Use this exact dark blue like your site headings */
+    margin-bottom: 15px;
+    font-weight: 600;  /* Optional: To match the boldness */
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+.iframe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.iframe-card iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+
+/* ========== MEDIA QUERIES ========== */
+@media (max-width: 768px) {
+
+  /* Hero Section */
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text p {
+    font-size: 0.95rem;
+  }
+
+  .cta-btn {
+    font-size: 0.95rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  /* Logo */
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  /* Section Headings */
+  .about-section h2,
+  .sem-grid h2,
+  .connect-section h2 {
+    font-size: 1.4rem;
+  }
+
+  /* Feature Cards */
+  .feature-card {
+    font-size: 0.95rem;
+    padding: 1.2rem;
+  }
+
+  /* Semester Cards */
+  .sem-card {
+    font-size: 0.95rem;
+    padding: 1.5rem;
+  }
+
+  /* Footer */
+  .footer-top p {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+
+  .footer-links {
+    font-size: 0.8rem;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .footer-links a {
+    font-size: inherit;
+  }
+
+
+  .social-icons {
+    font-size: 1.4rem;
+  }
+
+  /* Navigation Links */
+  .nav-links a {
+    font-size: 0.95rem;
+    padding: 0.4rem 0;
+  }
+
+  /* ========== MOBILE FONT ADJUSTMENTS FOR POLICY PAGES ========== */
+  .policy-page {
+    padding: 1.2rem 0.8rem;
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  .policy-page h2 {
+    font-size: 1.25rem;
+  }
+
+  .policy-page h3 {
+    font-size: 1rem;
+    margin-top: 1.2rem;
+  }
+
+  .policy-page p,
+  .policy-page li {
+    font-size: 0.85rem;
+  }
+
+  .policy-page ul {
+    padding-left: 1.2rem;
+  }
+
+  .hero-subject h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-subject p {
+    font-size: 1rem;
+  }
+
+  .subject-materials h2 {
+    font-size: 1.6rem;
+  }
+
+  .material-card h3 {
+    font-size: 1rem;
+  }
+}

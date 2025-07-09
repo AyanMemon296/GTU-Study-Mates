@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disclaimer | GTU Study Mates</title>
+  <meta name="description"
+    content="Disclaimer page of GTU Study Mates. Learn about the limitations of liability, accuracy of content, and third-party links.">
+  <meta name="keywords" content="Disclaimer, GTU Study Mates, Legal Notice, Limitation of Liability">
+  <meta name="author" content="Ayan Memon">
+  <meta property="og:title" content="Disclaimer | GTU Study Mates">
+  <meta property="og:description"
+    content="Read the disclaimer of GTU Study Mates regarding content accuracy and liability.">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">GTU Study Mates</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#semesters">Study Materials</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-subject">
+    <div class="hero-text">
+      <h1>Disclaimer</h1>
+      <p>Important Information and Legal Disclaimer for GTU Study Mates</p>
+    </div>
+  </header>
+
+  <!-- Disclaimer Content -->
+  <section class="policy-page container">
+
+    <p>The information provided on <strong>GTU Study Mates</strong> is for educational and informational purposes only.
+      While we strive to provide accurate, up-to-date, and helpful study materials, we make no guarantees regarding the
+      completeness, reliability, or accuracy of the content.</p>
+
+    <h3>1. Educational Purpose Only</h3>
+    <p>All content, materials, and resources shared on this website are intended solely to assist students in their
+      academic studies. They should not be considered as official study material from Gujarat Technological University
+      (GTU).</p>
+
+    <h3>2. No Legal or Professional Advice</h3>
+    <p>The content on this website does not constitute professional advice. Users are encouraged to verify the
+      information from official sources before making any decisions based on the content provided here.</p>
+
+    <h3>3. External Links</h3>
+    <p>Our website may contain links to third-party websites. We are not responsible for the content, accuracy, or
+      practices of any external sites linked here.</p>
+
+    <h3>4. Limitation of Liability</h3>
+    <p><strong>GTU Study Mates</strong> shall not be held liable for any direct, indirect, incidental, or consequential
+      damages arising out of the use or inability to use the materials provided on this site.</p>
+
+    <h3>5. Contact</h3>
+    <p>If you have any concerns or believe something has been shared inappropriately, please visit our <a
+        href="../footer/contact-us.html">Contact Us</a> page to get in touch.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <p>© 2025 GTU Study Mates | All Rights Reserved</p>
+      <p>Made with ❤️ by Ayan Memon</p>
+    </div>
+    <div class="footer-links">
+      <a href="../footer/dmca.html">DMCA</a>
+      <a href="../footer/disclaimer.html">Disclaimer</a>
+      <a href="../footer/privacy-policy.html">Privacy Policy</a>
+      <a href="../footer/terms-and-conditions.html">Terms & Conditions</a>
+      <a href="../footer/about-us.html">About Us</a>
+      <a href="../footer/contact-us.html">Contact Us</a>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    const navItems = document.querySelectorAll('.nav-links a');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    navItems.forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+      });
+    });
+  </script>
+
+</body>
+
+</html>

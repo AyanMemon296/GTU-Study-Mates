@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DMCA | GTU Study Mates</title>
+  <meta name="description"
+    content="DMCA policy of GTU Study Mates. Learn about how to report copyright violations or file DMCA notices.">
+  <meta name="keywords" content="DMCA, GTU Study Mates, Copyright Policy, DMCA Notice, GTU">
+  <meta name="author" content="Ayan Memon">
+  <meta property="og:title" content="DMCA | GTU Study Mates">
+  <meta property="og:description" content="Read the DMCA policy of GTU Study Mates to report copyright issues.">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">GTU Study Mates</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#semesters">Study Materials</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-subject">
+    <div class="hero-text">
+      <h1>DMCA Policy</h1>
+      <p>Digital Millennium Copyright Act (DMCA) Policy of GTU Study Mates</p>
+    </div>
+  </header>
+
+  <!-- DMCA Content -->
+  <section class="policy-page container">
+
+    <p>At <strong>GTU Study Mates</strong>, we respect the intellectual property rights of others and expect our users
+      to do the same. We comply with the provisions of the Digital Millennium Copyright Act (DMCA).</p>
+
+    <h3>1. Copyright Infringement Notification</h3>
+    <p>If you believe that any content on this website infringes your copyright, please provide us with a detailed
+      notification including the following information:</p>
+    <ul>
+      <li>Your full name and contact information (email address is sufficient).</li>
+      <li>Exact URLs of the copyrighted material you believe has been infringed.</li>
+      <li>A statement that you have a good faith belief that the disputed use is not authorized.</li>
+      <li>Your electronic or physical signature.</li>
+    </ul>
+
+    <h3>2. Removal of Infringing Content</h3>
+    <p>Upon receiving a valid DMCA notice, we will take appropriate action, including removing or disabling access to
+      the allegedly infringing material.</p>
+
+    <h3>3. Contact</h3>
+    <p>If you wish to report a copyright violation or file a DMCA notice, please reach out via our <a
+        href="../footer/contact-us.html">Contact Us</a> page.</p>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <p>© 2025 GTU Study Mates | All Rights Reserved</p>
+      <p>Made with ❤️ by Ayan Memon</p>
+    </div>
+    <div class="footer-links">
+      <a href="../footer/dmca.html">DMCA</a>
+      <a href="../footer/disclaimer.html">Disclaimer</a>
+      <a href="../footer/privacy-policy.html">Privacy Policy</a>
+      <a href="../footer/terms-and-conditions.html">Terms & Conditions</a>
+      <a href="../footer/about-us.html">About Us</a>
+      <a href="../footer/contact-us.html">Contact Us</a>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    const navItems = document.querySelectorAll('.nav-links a');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    navItems.forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+      });
+    });
+  </script>
+
+</body>
+
+</html>
