@@ -4,16 +4,13 @@
   <!-- Homepage -->
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/</loc></url>
 
-  <!-- Footer Pages -->
-  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/footer/about-us.html</loc></url>
-  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/footer/contact-us.html</loc></url>
-  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/footer/disclaimer.html</loc></url>
-  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/footer/dmca.html</loc></url>
-  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/footer/privacy-policy.html</loc></url>
-  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/footer/terms-and-conditions.html</loc></url>
+  <!-- Thank You Page -->
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/thank-you.html</loc></url>
 
-  <!-- Sem 1-2 Pages -->
+  <!-- 100 Points Activity -->
+  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/100PointsActivity/</loc></url>
+
+  <!-- Semester 1–2 -->
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem1-2/</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem1-2/BE.html</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem1-2/BEE.html</loc></url>
@@ -23,11 +20,11 @@
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem1-2/English.html</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem1-2/Maths1.html</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem1-2/Maths2.html</loc></url>
-  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem1-2/Physics2.html</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem1-2/PPS.html</loc></url>
+  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem1-2/Physics2.html</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem1-2/Workshop.html</loc></url>
 
-  <!-- Sem 3 Pages -->
+  <!-- Semester 3 -->
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem3/</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem3/DBMS.html</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem3/DE1A.html</loc></url>
@@ -38,7 +35,7 @@
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem3/PS.html</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem3/Sem3Playlists.html</loc></url>
 
-  <!-- Sem 4 Pages -->
+  <!-- Semester 4 -->
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem4/</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem4/COA.html</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem4/DE1B.html</loc></url>
@@ -48,7 +45,7 @@
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem4/PEM.html</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem4/Sem4Playlists.html</loc></url>
 
-  <!-- Sem 5 Pages -->
+  <!-- Semester 5 -->
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem5/</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem5/ADA.html</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem5/CN.html</loc></url>
@@ -60,22 +57,27 @@
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem5/SE.html</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem5/Sem5Playlists.html</loc></url>
 
-  <!-- Sem 6 Pages -->
+  <!-- Semester 6 -->
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem6/</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem6/AJP.html</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem6/DE2B.html</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem6/IPDC2.html</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem6/IoT.html</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem6/MPI.html</loc></url>
+  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem6/Sem6Playlists.html</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem6/TOC.html</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem6/WP.html</loc></url>
-  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem6/Sem6Playlists.html</loc></url>
 
-  <!-- Sem 7 & 8 Pages -->
+  <!-- Semester 7 and 8 -->
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem7/</loc></url>
   <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/Sem8/</loc></url>
 
-  <!-- 100 Points Activity -->
-  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/100PointsActivity/</loc></url>
+  <!-- Footer Legal Pages -->
+  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/footer/about-us.html</loc></url>
+  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/footer/contact-us.html</loc></url>
+  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/footer/disclaimer.html</loc></url>
+  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/footer/dmca.html</loc></url>
+  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/footer/privacy-policy.html</loc></url>
+  <url><loc>https://ayanmemon296.github.io/GTU-Study-Mates/footer/terms-and-conditions.html</loc></url>
 
 </urlset>
