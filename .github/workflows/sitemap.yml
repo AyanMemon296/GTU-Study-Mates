@@ -18,16 +18,3 @@ jobs:
         with:
           base_url: https://ayanmemon296.github.io/GTU-Study-Mates/
           output_path: sitemap.xml
-
-      - name: Commit sitemap
-        run: |
-          git config user.name "GitHub Action"
-          git config user.email "github-actions@github.com"
-          git add sitemap.xml
-          git commit -m "Update sitemap" || echo "No changes to commit"
-
-      - name: Push sitemap
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
