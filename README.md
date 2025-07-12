@@ -34,6 +34,7 @@
   - **Copyright infringement claims**
   - **Permanent removal from hosting platforms**
 - This project is shared for **educational purposes only**, not for commercial misuse or unethical replication.
+> ⚠️ This project is strictly protected. You are **not allowed** to reuse, copy, host, or modify any part of this code or design. Violations will lead to copyright actions.
 
 ---
 
