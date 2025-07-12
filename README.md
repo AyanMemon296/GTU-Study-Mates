@@ -1,6 +1,6 @@
-![License: Custom](https://img.shields.io/badge/license-Restricted-red.svg)
-
 # GTU Study Mates 💻📚 
+
+![License: Custom](https://img.shields.io/badge/license-Restricted-red.svg)
 
 **GTU Study Mates** is an educational website designed to help **GTU Computer, CS, CSE, and IT students** find semester-wise study materials easily, including syllabus, notes, solved papers, and curated video playlists based on the GTU curriculum.
 
@@ -36,8 +36,8 @@
   - **Copyright infringement claims**
   - **Permanent removal from hosting platforms**
 - This project is shared for **educational purposes only**, not for commercial misuse or unethical replication.
-> ⚠️ This project is strictly protected. You are **not allowed** to reuse, copy, host, or modify any part of this code or design. Violations will lead to copyright actions.
-
+> ⚠️ This project is strictly protected. You are **not allowed** to reuse, copy, host, or modify any part of this code or design. Violations will lead to copyright actions.  
+> 🚫 **"GTU Study Mates" is the original and protected work of Ayan Memon. Unauthorized use of the Name, Code, or Design is strictly prohibited.**
 ---
 
 ## 👤 About the Creator
