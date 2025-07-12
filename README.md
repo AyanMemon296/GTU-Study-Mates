@@ -1,3 +1,5 @@
+![License: Custom](https://img.shields.io/badge/license-Restricted-red.svg)
+
 # GTU Study Mates 💻📚 
 
 **GTU Study Mates** is an educational website designed to help **GTU Computer, CS, CSE, and IT students** find semester-wise study materials easily, including syllabus, notes, solved papers, and curated video playlists based on the GTU curriculum.
