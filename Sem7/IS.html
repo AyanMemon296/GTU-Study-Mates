@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IS - Information Security | GTU Study Mates</title>
+    <link rel="icon" type="image/png" href="../assets/favicon.png">
+
+    <meta name="description" content="Download Information Security (IS) study materials, notes, papers, lab files, and playlists for GTU Computer Engineering Semester 7.">
+    <meta name="keywords" content="IS, Information Security, GTU, Study Materials, Notes, Papers, Semester 7, Ayan Memon">
+    <meta name="author" content="Ayan Memon">
+    <meta property="og:title" content="IS - Information Security | GTU Study Mates">
+    <meta property="og:description" content="Complete study resources for Information Security (IS) in Semester 7. Notes, papers, IMP, playlists, and practicals.">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">GTU Study Mates</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#semesters">Study Materials</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-subject">
+        <div class="hero-text">
+            <h1>IS - Information Security</h1>
+            <p>Complete Study Materials, Notes, Papers & Lab Manual</p>
+        </div>
+    </header>
+
+    <!-- Subject Description -->
+    <section class="policy-page container">
+        <h2>About IS (Information Security)</h2>
+        <p>
+            Information Security (IS) is a <strong>critical subject</strong> focusing on protecting data and systems from unauthorized access, breaches, and other cyber threats.
+        </p>
+        <p>
+            This subject is essential for <strong>cybersecurity, ethical hacking, and system administration</strong> roles.
+        </p>
+        <p>
+            Don’t stress! We’ve compiled <strong>GTU syllabus-based resources</strong> to make your preparation easier.
+        </p>
+    </section>
+
+    <!-- Materials Section -->
+    <section class="subject-materials container">
+        <h2>IS Study Materials</h2>
+
+        <div class="materials-grid">
+            <div class="material-card">
+                <h3>Syllabus</h3>
+                <a href="https://drive.google.com/drive/folders/1kPz2wLjZnpMuXkRKVjn1WRCciDmlPV7v" target="_blank">
+                    <i class="fas fa-file-alt"></i> View / Download
+                </a>
+            </div>
+
+            <div class="material-card">
+                <h3>GTU Papers</h3>
+                <a href="https://drive.google.com/drive/folders/1Tf9cT7JK-4Y1Hv-BeZ30F53bAegYDDlg" target="_blank">
+                    <i class="fas fa-file-pdf"></i> View / Download
+                </a>
+            </div>
+
+            <div class="material-card">
+                <h3>PPT PDF</h3>
+                <a href="https://drive.google.com/drive/folders/1HXCLuVb2FDG_-aL6c2Z2GLbT8I06UGpU" target="_blank">
+                    <i class="fas fa-file-powerpoint"></i> View / Download
+                </a>
+            </div>
+
+            <div class="material-card">
+                <h3>GTU Books</h3>
+                <a href="https://drive.google.com/drive/folders/1JV-i00b4skMGaD3_ahTFCjpOokrbVjGn" target="_blank">
+                    <i class="fas fa-book"></i> View / Download
+                </a>
+            </div>
+
+            <div class="material-card">
+                <h3>Study Material</h3>
+                <a href="https://drive.google.com/drive/folders/1Jmf4BOvY4WdPTVN-Zj84lx2YBABUx_5E" target="_blank">
+                    <i class="fas fa-book-open"></i> View / Download
+                </a>
+            </div>
+
+            <div class="material-card">
+                <h3>Lab Manual</h3>
+                <a href="https://drive.google.com/drive/folders/1tjcnNfNCVXrotG2GjoJKkOND2uW9EPQ8" target="_blank">
+                    <i class="fas fa-flask"></i> View / Download
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <p>© 2025 GTU Study Mates | All Rights Reserved</p>
+            <p>Made with ❤️ by Ayan Memon</p>
+        </div>
+        <div class="footer-links">
+            <a href="../footer/dmca.html">DMCA</a>
+            <a href="../footer/disclaimer.html">Disclaimer</a>
+            <a href="../footer/privacy-policy.html">Privacy Policy</a>
+            <a href="../footer/terms-and-conditions.html">Terms & Conditions</a>
+            <a href="../footer/about-us.html">About Us</a>
+            <a href="../footer/contact-us.html">Contact Us</a>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        const navItems = document.querySelectorAll('.nav-links a');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        navItems.forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+    </script>
+
+</body>
+</html>
